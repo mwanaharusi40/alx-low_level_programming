@@ -2,7 +2,6 @@
 #include "main.h"
 /**
  * main - prints _putchar followed by a new line character
- *
  * Return: zero (0) success
  */
 int main(void)
