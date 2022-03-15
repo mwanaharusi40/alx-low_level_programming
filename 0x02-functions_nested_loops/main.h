@@ -3,6 +3,5 @@
 /*comments here
  */
 int _putchar(char);
-
 #endif
  
