@@ -8,20 +8,22 @@
  * Return: largest number
  */
 
-int main()
+int largest_number(int a, int b, int c)
 {
-int a, int b, int c;
+	int largest;
 
-if (a >= b && a >= c)
-{	  
-printf("a is the largest number.");
-}
-else if (b >= a && b >= c)
-{
-printf(" b is the largest number");
-}
-else
-printf("c is the largest number");
-}
-return 0;
+	if (a >= b && a >= c)
+	{
+		largest = a;
+	}
+	else if (b >= a && b >= c)
+	{
+		largest = b;
+	}
+	else
+	{
+		largest = c;
+	}
+
+	return (largest);
 }
