@@ -1,4 +1,3 @@
-carrie@ubuntu:/debugging$ cat 1-main.c
 #include <stdio.h>
 
 /**
@@ -16,12 +15,13 @@ int main(void)
 
         while (i < 10)
         {
-		/*output go into an infinite loop*/
-                putchar(i);
+          /*
+	   * Output go into an infinite loop
+	   */
+	                putchar(i);
         }
 
         printf("Infinite loop avoided! \\o/\n");
 
         return (0);
-}
-
+}i
