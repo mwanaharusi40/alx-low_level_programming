@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	for(int c=97; c<=122; ++c)
+	for(char c = 'a'; c <= 'z'; ++c)
 		_putchar("%c", c);
 	        _putchar("\n");
 
