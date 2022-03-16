@@ -15,7 +15,7 @@ int main(void)
 
         while (i < 10)
         {
-          /*
+          /**
 	   * Output go into an infinite loop
 	   */
 	                putchar(i);
