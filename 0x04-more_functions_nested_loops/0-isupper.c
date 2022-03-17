@@ -9,10 +9,12 @@
 int _isupper(int c)
 {
     char c;
-
-    c = 'A';
+   
+   if (c = A)
     _putchar("A");
-    c = 'a';
+
+   else (c = a)
     _putchar("a");
+
     return (0);
 }
