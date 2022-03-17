@@ -8,13 +8,15 @@
  */
 int _isupper(int c)
 {
-    char c;
+char c;
    
-   if (c = A)
-    _putchar("A");
-
-   else (c = a)
-    _putchar("a");
-
-    return (0);
+if (c = A)
+{
+_putchar("A");
+}
+else (c = a)
+{
+_putchar("a");
+}
+return (0);
 }
