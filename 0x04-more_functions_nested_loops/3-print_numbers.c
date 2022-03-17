@@ -1,21 +1,19 @@
-
 /*
- * File: 1-isdigit.c
- * Auth: mwanaaa
+ * File: 3-print_numbers.c
+ * Auth: Gideon Obae Gekonge
  */
 
 #include "main.h"
 
 /**
- * _isdigit - Checks for a digit (0-9).
- * @c: The number to be checked.
- *
- * Return: 1 if the number is a digit, 0 otherwise.
+ * print_numbers - Prints the numbers from 0-9.
  */
 void print_numbers(void)
 {
-	if (c >= '0' && c <= '9')
-		
-          _putchar("\n");
+	int num;
 
+	for (num = 0; num <= 9; num++)
+		_putchar((num % 10) + '0');
+
+	_putchar('\n');
 }

@@ -1,16 +1,19 @@
+
+/*
+ * File: 2-mul.c
+ * Auth: Gideon Obae Gekonge
+ */
+
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
+ * mul - Multiples two integers.
+ * @a: The first integer to be multiplied.
+ * @b: The second integer to be multiplied.
  *
- * Return: Always 0.
+ * Return: The result of the multiplication.
  */
 int mul(int a, int b)
 {
-    int a, int b;
-
-    _putchar("a*b");
-    
-    return (0);
+	return (a * b);
 }
