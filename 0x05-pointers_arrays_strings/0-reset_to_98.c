@@ -14,5 +14,5 @@ int n;
    modif_my_param(n);
    _putchar("\n");
 
-   return (0); 
+   return (1); 
 }
