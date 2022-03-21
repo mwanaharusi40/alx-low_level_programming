@@ -14,10 +14,9 @@ void swap_int(int *a, int *b)
     a = 98;
     b = 42;
     
-    _putchar("a,b");
-
     swap_int(&a, &b);
-    _putchar("a, b":\n);
+    _putchar("a, b");
+    _putchar("\n");
 
     return (0);
 }
