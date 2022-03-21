@@ -12,7 +12,7 @@ int n;
 
    n = 98;
    modif_my_param(n);
-   _putchar("\n")
+   _putchar("\n");
 
-   return (0) 
+   return (0); 
 }
