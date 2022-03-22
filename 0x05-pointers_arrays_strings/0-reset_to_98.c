@@ -11,7 +11,7 @@ void reset_to_98(int *n)
 int n;
 
    n = 98;
-   modif_my_param(n);
+   _putchar("&n");
    _putchar("\n");
 
    return (1); 
