@@ -8,11 +8,10 @@
  */
 int main(void)
 {
-  int n;
-  int *p;
+  int *n;
 
   n = 98;
-  p = &n;
+  
   _putchar("n");
   _putchar("\n");
 
