@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_rev - Prints a string in reverse.
- * @s: The string to be printed.
+ * print_rev - func that prints a string, in reverse, followed by a new l line.
+ * @s: declaration of s and parameter s for the function as in the quiz
+ * Return: Always 0.
  */
 
 void print_rev(char *s)
@@ -14,5 +15,5 @@ void print_rev(char *s)
 	}
 	for (c = c - 1; c >= 0; c++)
 		_putchar(s[c]);
-	_putchar('\n');
+		_putchar('\n');
 }
