@@ -11,6 +11,6 @@
 
 int _strlen(char *s)
 {
-strlen(char *s);
+str = "Holberton!";
 }
 
