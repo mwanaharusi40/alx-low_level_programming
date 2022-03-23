@@ -2,6 +2,7 @@
 
 /**
  * _stract - Functionthat concatenate two strings.
+ * @strcat: Concatenate the strings.
  * Return: A pointer to the resulting string dest.
  */
 
@@ -9,5 +10,6 @@ char *_strcat(char *dest, char *src)
 {
 	for (i = 0; i< n && scr[i]! = '\0'; i++)
 		*dest[i] = *scr[i];
+
 	return dest;
 }
