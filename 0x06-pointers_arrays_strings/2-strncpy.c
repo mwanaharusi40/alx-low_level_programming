@@ -13,6 +13,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	while (scr[i++])
 		scr_len++;
+
 	for (i = 0; scr[i] && i < n; i++)
 		dest[i] = scr[i];
 
