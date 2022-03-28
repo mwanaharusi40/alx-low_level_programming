@@ -6,13 +6,13 @@
 /*
  * _memset - Fills the first n bytes of the memory area.
  * @s: A pointer to the memory area to be filled.
- * @b: The constant byte.
+ * @c: The constant byte.
  * @n: The number of bytes to be filled.
  *
  * Returns: A pointer to the memory area s.
  */
 
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(void *s, int c,size_t n)
 {
 	unsigned int index;
 	unsigned char *memory = s, value = n;
