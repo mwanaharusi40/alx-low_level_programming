@@ -2,7 +2,7 @@
  * File: 8-print_diagsums.c
  */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
