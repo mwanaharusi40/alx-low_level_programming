@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strstr - finds the first occurence of the substring needle
  * in the string haystack
@@ -9,8 +10,10 @@
 
 char *_strstr(char *haystack, char *needle)
 {
+
 	while (*haystack != '\0')
 	{
+
 		char *beginning = haystack;
 		char *pattern = needle;
 
