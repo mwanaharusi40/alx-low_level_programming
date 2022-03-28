@@ -23,6 +23,7 @@ void *_memcpy(void *dest, const void *src, size_t n)
 
 	for (index = 0; index < n; index++)
 		destination[index] = source[index];
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
