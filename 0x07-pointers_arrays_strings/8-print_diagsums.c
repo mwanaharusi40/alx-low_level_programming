@@ -1,4 +1,5 @@
-#include "main.h"
+#include "holberton.h"
+#include <stdio.h>
 
 /**
  * print_diagsums - Prints the sum of the two diagonals
@@ -13,8 +14,7 @@ void print_diagsums(int *a, int size)
 	for (index = 0; index < size; index++)
 	{
 		sum1 += a[index];
-		a +=size;
-
+		a += size;
 	}
 
 	a -= size;
@@ -23,8 +23,7 @@ void print_diagsums(int *a, int size)
 	{
 		sum2 += a[index];
 		a -= size;
-
 	}
 
-		printf("%d, %d\n", sum1, sum2);
+	printf("%d, %d\n", sum1, sum2);
 }
