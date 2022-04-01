@@ -8,7 +8,7 @@
  * used in the 0x09-static_libraries.
  */
 
-#include <stdio.h>
+#include <stddef.h>
 
 int _putchar(char c);
 int _islower(int c);
