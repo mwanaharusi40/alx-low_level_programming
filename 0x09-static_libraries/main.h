@@ -1,14 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
-
 /**
  * File: Main.h
- *
  * Desc: Header file containing prototypes for all functions.
  * used in the 0x09-static_libraries.
  */
 
-#include <stddef.h>
+#include <stdio.h>
 
 int _putchar(char c);
 int _islower(int c);
