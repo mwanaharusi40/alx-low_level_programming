@@ -1,6 +1,5 @@
 /*
- * File: 2-add_nodeint.c
- * Auth: Gedeon Obae Gekonge
+ * File: 3-add_nodeint_end.c
  */
 
 #include "lists.h"
