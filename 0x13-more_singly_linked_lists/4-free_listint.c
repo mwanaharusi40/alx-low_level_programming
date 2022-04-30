@@ -1,5 +1,6 @@
 /*
  * File: 4-free_listint.c
+ * Auth: Gedeon Obae Gekonge
  */
 
 #include "lists.h"
