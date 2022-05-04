@@ -1,10 +1,12 @@
+
 #ifndef MAIN_H
-#define MAAIN_H
+#define MAIN_H
 
 /*
  * File: main.h
+ * Auth: Gedeon Obae Gekonge
  * Desc: Header file containing prototypes for all functions
- *       written in the 0x15-file_io directory.
+ *       written in the 0x14-file_io directory.
  */
 
 #include <sys/types.h>

@@ -1,5 +1,6 @@
 /*
  * File: 2-append_text_to_file.c
+ * Auth: Gedeon Obae Gekonge
  */
 
 #include "main.h"
