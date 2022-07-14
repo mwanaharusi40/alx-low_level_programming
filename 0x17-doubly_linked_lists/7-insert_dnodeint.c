@@ -1,3 +1,8 @@
+/*
+ * File: 7-insert_dnodeint.c
+ * Auth: Gedeon Obae Gekonge
+ */
+
 #include "lists.h"
 
 /**

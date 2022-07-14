@@ -1,3 +1,8 @@
+/*
+ * File: 6-sum_dlistint.c
+ * Auth: Gedeon Obae Gekonge
+ */
+
 #include "lists.h"
 
 /**
